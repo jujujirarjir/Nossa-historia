@@ -355,7 +355,7 @@ let isPlaying = false;
 function updatePlayButtons() {
 
     const symbol =
-        isPlaying ? "❚❚" : "▶︎";
+        isPlaying ? "❚❚" : "►";
 
 
     if (bottomPlayButton) {
