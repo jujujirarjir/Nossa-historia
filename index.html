@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Juliana e Gustavo</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+
+<body>
+
+    <div class="app">
+
+
+        <!-- =====================================================
+             PÁGINA 1 - INÍCIO
+        ====================================================== -->
+
+        <main id="homePage" class="page active-page">
+
+            <!-- FOTO + FILTROS -->
+
+            <section class="filter-profile">
+
+                <img
+                    src="assets/gustavo.jpg"
+                    alt="Gustavo"
+                    class="profile-image"
+                >
+
+                <div class="filter-section">
+
+                    <button class="filter active">
+                        Tudo
+                    </button>
+
+                    <button class="filter">
+                        Músicas
+                    </button>
+
+                    <button class="filter">
+                        Podcasts
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 8 RETÂNGULOS
+            ================================================== -->
+
+            <section class="quick-grid">
+
+                <button
+                    class="quick-card artist-link"
+                    data-page="artistPage"
+                >
+
+                    <img
+                        src="assets/juliana-gustavo.jpg"
+                        alt="Juliana e Gustavo"
+                    >
+
+                    <span>
+                        Juliana e Gustavo
+                    </span>
+
+                </button>
+
+
+                <button class="quick-card">
+
+                    <img
+                        src="assets/vandame.jpg"
+                        alt="Best Part"
+                    >
+
+                    <span>
+                        Vandame
+                    </span>
+
+                </button>
+
+
+                <button class="quick-card">
+
+                    <img
+                        src="assets/pirocada quente.jpg"
+                        alt="From The Start"
+                    >
+
+                    <span>
+                        Pirocada Quente
+                    </span>
+
+                </button>
+
+
+                <button class="quick-card">
+
+                    <img
+                        src="assets/fumaca do ice.jpg"
+                        alt="Until I Found You"
+                    >
+
+                    <span>
+                        Fumaça do ice
+                    </span>
+
+                </button>
+
+
+                <button class="quick-card">
+
+                    <img
+                        src="assets/embalo.jpg"
+                        alt="Love Of My Life"
+                    >
+
+                    <span>
+                        Embalo
+                    </span>
+
+                </button>
+
+
+                <button class="quick-card">
+
+                    <img
+                        src="assets/mc kevin.jpg"
+                        alt="Música"
+                    >
+
+                    <span>
+                        Mc Kevim
+                    </span>
+
+                </button>
+
+
+                <button class="quick-card">
+
+                    <img
+                        src="assets/mete marcha.jpg"
+                        alt="Música"
+                    >
+
+                    <span>
+                        mete marcha
+                    </span>
+
+                </button>
+
+
+                <button class="quick-card">
+
+                    <img
+                        src="assets/comparacao.jpg"
+                        alt="Música"
+                    >
+
+                    <span>
+                        Comparaçao
+                    </span>
+
+                </button>
+
+            </section>
+
+
+            <!-- =================================================
+                 SUAS MÚSICAS ESTÃO COM SAUDADE
+            ================================================== -->
+
+            <section class="content-section">
+
+                <div class="section-heading">
+
+                    <h2>
+                        Suas músicas estão com saudades
+                    </h2>
+
+                </div>
+
+
+                <div class="square-cards">
+
+
+                    <button class="music-card">
+
+                        <img
+                            src="assets/a morte do autotune.jpg"
+                            alt="Best Part"
+                        >
+
+                        <strong>
+                            A Morte do Autotune
+                        </strong>
+
+                        <span>
+                           Matue
+                        </span>
+
+                    </button>
+
+
+                    <button class="music-card">
+
+                        <img
+                            src="assets/playboy.jpg"
+                            alt="From The Start"
+                        >
+
+                        <strong>
+                            playboy
+                        </strong>
+
+                        <span>
+                           Tchelo, retroboy
+                        </span>
+
+                    </button>
+
+
+                    <button class="music-card">
+
+                        <img
+                            src="assets/luz cama acao.jpg"
+                            alt="Until I Found You"
+                        >
+
+                        <strong>
+                            LUZ, CAMA E AÇÃO
+                        </strong>
+
+                        <span>
+                           Alee, MC Cabelinho
+                        </span>
+
+                    </button>
+
+
+                    <button class="music-card">
+
+                        <img
+                            src="assets/hate that i made you love me.jpg"
+                            alt="Love Of My Life"
+                        >
+
+                        <strong>
+                            hate that i made you love me
+                        </strong>
+
+                        <span>
+                            Ariana Grande
+                        </span>
+
+                    </button>
+
+
+                </div>
+
+            </section>
+
+        </main>
+
+
+
+       <!-- =====================================================
+     PÁGINA 2 - JULIANA E GUSTAVO
+====================================================== -->
+
+<main id="artistPage" class="page">
+
+    <header class="artist-header">
+
+        <button
+            class="back-button"
+            data-page="homePage"
+            aria-label="Voltar"
+        >
+            ←
+        </button>
+
+
+        <div class="artist-cover">
+
+            <img
+                src="assets/juliana e gustavo.jpg"
+                alt="Juliana e Gustavo"
+            >
+
+            <div class="artist-cover-gradient"></div>
+
+            <div class="artist-information">
+
+                <span class="artist-label">
+                    Artista
+                </span>
+
+                <h1>
+                    Juliana e Gustavo
+                </h1>
+
+                <p>
+                    Nossa história em músicas
+                </p>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <section class="artist-content">
+
+        <div class="artist-actions">
+
+            <div class="artist-secondary-actions">
+
+                <button
+                    class="following-button"
+                    aria-label="Seguindo"
+                >
+                    Seguindo
+                </button>
+
+                <button
+                    class="artist-more-button"
+                    aria-label="Mais opções"
+                >
+                    ⋯
+                </button>
+
+            </div>
+
+
+            <button
+                class="main-play-button"
+                data-page="songPage"
+                aria-label="Tocar"
+            >
+                ▶
+            </button>
+
+        </div>
+
+
+        <!-- =================================================
+             POPULARES
+        ================================================== -->
+
+        <section class="popular-section">
+
+            <h2>
+                Populares
+            </h2>
+
+
+            <div class="song-list">
+
+
+                <!-- MÚSICA 01 -->
+
+                <button
+                    class="song-row"
+                    data-song="Para Meu Amor"
+                    data-image="assets/para meu amor.jpg"
+                    data-artist="Juliana e Gustavo"
+                    data-letter="Gustavo, 
+
+Antes de você, eu achava que sabia como era gostar de alguém. Talvez eu até soubesse, mas não sabia que poderia ser assim.
+
+Por isso, eu quis guardar a nossa história em pequenos momentos. Não porque eles foram os únicos importantes, mas porque cada um deles mudou alguma coisa entre nós. Um começo, um encontro, uma dúvida, um abraço, um “te amo” e, finalmente, a minha escolha de te amar de volta.
+
+Essas cartas são um pedacinho da nossa história contada do jeito que eu senti cada momento.
+
+E talvez seja engraçado pensar que tudo começou sem eu saber onde ia dar.
+
+Mas ainda bem que deu em você.
+"
+                    data-page="songPage"
+                >
+
+                    <span class="song-number">
+                        01
+                    </span>
+
+                    <img
+                        src="assets/para meu amor.jpg"
+                        alt="Para Meu Amor"
+                    >
+
+                    <div class="song-information">
+
+                        <strong>
+                            Para Meu Amor
+                        </strong>
+
+                        <span>
+                            Juliana e Gustavo
+                        </span>
+
+                    </div>
+
+                    <span class="song-more">
+                        ⋮
+                    </span>
+
+                </button>
+
+
+                <!-- MÚSICA 02 -->
+
+                <button
+                    class="song-row"
+                    data-song="Dia 11"
+                    data-image="assets/dia 11.jpg"
+                    data-artist="Juliana e Gustavo"
+                    data-letter="Dia 11 foi quando a nossa história começou a ficar diferente.
+
+A gente começou a conversar e, no meio de tantas conversas, eu percebi que tinha alguma coisa em você que me fazia querer continuar ali. Eu ainda não sabia exatamente o que era, nem onde aquilo poderia chegar, mas comecei a pensar que talvez fosse interessante me permitir conhecer você de um jeito diferente.
+
+Foi um daqueles momentos que parecem pequenos enquanto acontecem, mas que depois a gente olha para trás e percebe: era ali que alguma coisa estava começando.
+
+Eu ainda não sabia que você seria meu namorado. Não sabia que um dia você me diria “te amo”, que eu teria vontade de te dizer de volta, nem que eu estaria escrevendo seis cartas sobre nós.
+
+Eu só sabia que gostava de conversar com você.
+
+E, sem perceber, comecei a gostar da ideia de nós dois.
+"
+                    data-page="songPage"
+                >
+
+                    <span class="song-number">
+                        02
+                    </span>
+
+                    <img
+                        src="assets/dia 11.jpg"
+                        alt="Dia 11"
+                    >
+
+                    <div class="song-information">
+
+                        <strong>
+                            Dia 11
+                        </strong>
+
+                        <span>
+                            Juliana e Gustavo
+                        </span>
+
+                    </div>
+
+                    <span class="song-more">
+                        ⋮
+                    </span>
+
+                </button>
+
+
+                <!-- MÚSICA 03 -->
+
+                <button
+                    class="song-row"
+                    data-song="Dia 15"
+                    data-image="assets/dia 15.jpg"
+                    data-artist="Juliana e Gustavo"
+                    data-letter="Dia 15 foi a primeira vez que saímos juntos.
+
+Eu sabia que estava saindo com você. Sabia que estava gostando daquilo. Mas ainda existia aquela dúvida meio silenciosa de “será que ele também quer alguma coisa comigo ou eu estou entendendo tudo errado?”.
+
+Mesmo assim, naquele dia eu gostei de estar com você. Gostei de te conhecer fora das conversas, de viver aquele momento ao seu lado e de perceber que aquilo que tinha começado no dia 11 podia realmente virar alguma coisa.
+
+Eu ainda não tinha certeza de nós.
+
+Mas acho que, naquele dia, comecei a torcer para que existisse um “nós” para ter certeza depois."
+
+                    data-page="songPage"
+                >
+
+                    <span class="song-number">
+                        03
+                    </span>
+
+                    <img
+                        src="assets/dia 15.jpg"
+                        alt="Dia 15"
+                    >
+
+                    <div class="song-information">
+
+                        <strong>
+                            Dia 15
+                        </strong>
+
+                        <span>
+                            Juliana e Gustavo
+                        </span>
+
+                    </div>
+
+                    <span class="song-more">
+                        ⋮
+                    </span>
+
+                </button>
+
+
+                <!-- MÚSICA 04 -->
+
+                <button
+                    class="song-row"
+                    data-song="Dia 22"
+                    data-image="assets/dia 22.jpg"
+                    data-artist="Juliana e Gustavo"
+                    data-letter="Dia 22 foi quando aquela dúvida começou a desaparecer.
+
+Foi quando eu finalmente soube que você também queria aquilo. Que não era só coisa da minha cabeça, que você também estava escolhendo ficar ali comigo.
+
+E então veio o nosso abraço e o filme no sofá.
+
+Pode parecer simples para qualquer outra pessoa, mas para mim aquele momento significou muito. Porque naquele momento tinha certeza que você queria estar lá, comigo.
+
+E foi muito bom porque foi ali que pensei, nao estou louca, ele tambem quer ehheehehh
+
+Ali finalmente consegui ficar tranquila sem as duvidas porque finalmente eu não precisava mais tentar descobrir o que você sentia."
+                    data-page="songPage"
+                >
+
+                    <span class="song-number">
+                        04
+                    </span>
+
+                    <img
+                        src="assets/dia 22.jpg"
+                        alt="Dia 22"
+                    >
+
+                    <div class="song-information">
+
+                        <strong>
+                            Dia 22
+                        </strong>
+
+                        <span>
+                            Juliana e Gustavo
+                        </span>
+
+                    </div>
+
+                    <span class="song-more">
+                        ⋮
+                    </span>
+
+                </button>
+
+
+                <!-- MÚSICA 05 -->
+
+                <button
+                    class="song-row"
+                    data-song="Dia 29"
+                    data-image="assets/dia 29.jpg"
+                    data-artist="Juliana e Gustavo"
+                    data-letter="Dia 29 foi o dia em que você me disse “te amo” pela primeira vez.
+talvez você nem soubesse, mas ouvir aquilo mudou alguma coisa em mim.
+
+Eu já sentia muita coisa por você. Só que ouvir você colocar em palavras aquilo que estava começando a existir entre nós tornou tudo mais concreto.
+
+Eu guardei aquele momento.
+
+Guardei porque foi a primeira vez que ouvi você dizer que me amava.
+
+E porque, naquele instante, eu comecei a entender que estava amando alguém que também tinha escolhido me amar."
+                    data-page="songPage"
+                >
+
+                    <span class="song-number">
+                        05
+                    </span>
+
+                    <img
+                        src="assets/dia 29.jpg"
+                        alt="Dia 29"
+                    >
+
+                    <div class="song-information">
+
+                        <strong>
+                            Dia 29
+                        </strong>
+
+                        <span>
+                            Juliana e Gustavo
+                        </span>
+
+                    </div>
+
+                    <span class="song-more">
+                        ⋮
+                    </span>
+
+                </button>
+
+
+                <!-- MÚSICA 06 -->
+
+                <button
+                    class="song-row"
+                    data-song="Dia 12"
+                    data-image="assets/dia 12.jpg"
+                    data-artist="Juliana e Gustavo"
+                    data-letter="O nosso primeiro Dia dos Namorados.
+
+E também o dia em que eu finalmente te disse “te amo” de volta.
+
+Eu queria te falar antes. Muitas vezes mas me segurava
+
+Não porque eu não sentisse.
+
+Muito pelo contrário.
+
+Eu acho que eu segurava justamente porque dizer “eu te amo” para mim nunca foi uma coisa pequena.
+
+Eu tinha esse coração de pedra.
+
+Ou pelo menos gostava de acreditar que tinha.
+
+Até você chegar.
+
+E naquele dia, quando eu te disse “eu te amo”, não estava apenas repetindo as mesmas palavras que você tinha me dito antes. Eu estava te entregando uma parte de mim que eu tinha protegido por muito tempo.
+
+Foi naquele momento que eu escolhi você.
+
+Escolhi ficar.
+
+Escolhi confiar.
+
+Escolhi parar de tentar descobrir quando aquilo iria acabar e começar a prestar atenção em tudo que eu queria viver com você.
+
+E, se eu pudesse voltar para aquele instante sabendo tudo que sei hoje, eu ainda escolheria a mesma coisa.
+
+Eu te amo, Gustavo.
+
+E, dentre todas as coisas que poderiam ter acontecido depois daquele dia 11, ainda acho que nós dois fomos a minha favorita."
+                    data-page="songPage"
+                >
+
+                    <span class="song-number">
+                        06
+                    </span>
+
+                    <img
+                        src="assets/dia 12.jpg"
+                        alt="Dia 12"
+                    >
+
+                    <div class="song-information">
+
+                        <strong>
+                            Dia 12
+                        </strong>
+
+                        <span>
+                            Juliana e Gustavo
+                        </span>
+
+                    </div>
+
+                    <span class="song-more">
+                        ⋮
+                    </span>
+
+                </button>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             PRÓXIMAS MÚSICAS
+        ================================================== -->
+
+        <section class="next-section">
+
+            <h2>
+                Próximas músicas
+            </h2>
+
+            <p>
+                Nossa história ainda não terminou.
+            </p>
+
+        </section>
+
+
+    </section>
+
+</main>
+
+        <!-- =====================================================
+             PÁGINA 3 - MÚSICA / CARTA
+        ====================================================== -->
+
+        <main id="songPage" class="page song-page">
+
+
+            <header class="song-header">
+
+                <button
+                    class="back-button song-back"
+                    data-page="artistPage"
+                    aria-label="Voltar"
+                >
+                    ←
+                </button>
+
+            </header>
+
+
+
+            <section class="song-main">
+
+
+                <!-- FOTO DA MÚSICA -->
+
+                <div class="song-cover-large">
+
+                    <img
+                        id="songPageImage"
+                        src="assets/para-meu-amor.jpg"
+                        alt="Para Meu Amor"
+                    >
+
+                </div>
+
+
+
+                <!-- TÍTULO -->
+
+                <div class="song-title-area">
+
+                    <span>
+                        Juliana e Gustavo
+                    </span>
+
+                    <h1 id="songPageTitle">
+                        Para Meu Amor
+                    </h1>
+
+                    <p>
+                        Uma carta em forma de música
+                    </p>
+
+                </div>
+
+
+
+                <!-- PLAYER -->
+
+                <div class="full-player">
+
+
+                    <div class="player-times">
+
+                        <span>
+                            0:00
+                        </span>
+
+                        <span>
+                            3:42
+                        </span>
+
+                    </div>
+
+
+                    <div class="progress-container">
+
+                        <div class="progress-bar">
+
+                            <div class="progress-value"></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="player-controls">
+
+                        <button
+                            id="previousSong"
+                            aria-label="Anterior"
+                        >
+                            ◁ 
+                        </button>
+
+                        <button
+                            class="big-play"
+                            aria-label="Play"
+                        >
+                            ▶
+                        </button>
+
+                        <button
+                            id="nextSong"
+                            aria-label="Próxima"
+                        >
+                            ▷
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =================================================
+                     CARTA
+                ================================================== -->
+
+                <article class="letter">
+
+
+                    <div class="letter-heading">
+
+                        <span>
+                            Gustavo
+                        </span>
+
+                        <span>
+                            ♡
+                        </span>
+
+                    </div>
+
+
+                    <div class="letter-content" id="songPageLetter">
+
+                        <p>
+                            Essa é a nossa primeira música.
+                        </p>
+
+                        <p>
+                            Aqui vai entrar a carta que você escrever
+                            para ele.
+                        </p>
+
+                        <p>
+                            Nossa história em músicas está apenas
+                            começando.
+                        </p>
+
+                    </div>
+
+
+                </article>
+
+
+            </section>
+
+        </main>
+
+
+
+        <!-- =====================================================
+             PLAYER FIXO
+        ====================================================== -->
+
+        <div class="bottom-player">
+
+
+            <div class="bottom-song">
+
+                <img
+                    id="bottomPlayerImage"
+                    src="assets/para-meu-amor.jpg"
+                    alt="Música atual"
+                >
+
+
+                <div>
+
+                    <strong id="bottomPlayerTitle">
+                        Para Meu Amor
+                    </strong>
+
+                    <span id="bottomPlayerArtist">
+                        Ryu, The Runner, Teto, Yunk vino
+                    </span>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="bottom-player-controls">
+
+                <button>
+                    ♡
+                </button>
+
+                <button
+                    class="bottom-play"
+                    data-page="songPage"
+                >
+                    ▶
+                </button>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- =====================================================
+             NAVEGAÇÃO INFERIOR
+        ====================================================== -->
+
+        <nav class="bottom-navigation">
+
+
+            <button
+                class="navigation-item active"
+                data-page="homePage"
+            >
+
+                <span class="nav-icon">
+                    ⌂
+                </span>
+
+                <span>
+                    Início
+                </span>
+
+            </button>
+
+
+
+            <button class="navigation-item">
+
+                <span class="nav-icon">
+                    ⌕
+                </span>
+
+                <span>
+                    Buscar
+                </span>
+
+            </button>
+
+
+
+            <button class="navigation-item">
+
+                <span class="nav-icon">
+                    ▣
+                </span>
+
+                <span>
+                    Sua Biblioteca
+                </span>
+
+            </button>
+
+
+
+            <button class="navigation-item">
+
+                <span class="nav-icon">
+                    +
+                </span>
+
+                <span>
+                    Criar
+                </span>
+
+            </button>
+
+
+        </nav>
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
